@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+body{
+    padding-top: 100px;
+    font-size: 14px;
+    font-family: 'Roboto Slab', serif;
+   background-color: #f4f4f4 !important;
+}
+p{
+    font-size: 14px;
+    font-family: 'Roboto Slab', serif;
+}
+h1, h2, h3, h4, h5{
+    font-family: 'Roboto Slab', serif;
+
+}
+button{
+    font-size: 14px;
+    font-family: 'Roboto Slab', serif;
+}
+.product-name{
+    font-weight: 700 !important;
+    font-size: 20px !important;
+}
+p{
+    font-weight: 500;
+}
+.price{
+    color: green;
+    font-weight: 600;
+    padding: 10px 0;
+    margin: 0;
+}
+
+select{
+    width: 200px;
+    font-size: 14px !important;
+    font-weight: 400;
+}
+.stock{
+    margin: 0;
+    color: green;
+    font-weight: 600;
+    
+}
+.add-btn{
+    font-size: 14px;
+    padding: 5px 25px;
+    border-radius: 3px;
+    border: none;
+    background-color: green;
+    color: #f4f4f4;
+}
+.soldby{
+    margin: 10px;
+}
+.fa-location-dot{
+    color: blue;
+}
+.disc{
+    background-color: green;
+    border: none;
+    color:#f4f4f4;
+    padding: 5px 25px;
+    border-radius: 4px;
+    margin: 0px;
+}
+.info, .benef{
+    background-color: rgb(182, 173, 173);
+    border: none;
+    color:#000;
+    padding: 5px 25px;
+    border-radius: 4px;
+    margin: 0;
+}
+.product-desp{
+   
+   padding: 0;
+    border-bottom: 3px solid green;
+}
+/* main section */
+#content-wrapper{
+    background-color: #f4f4f4;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:center;
+}
+.column{
+    width: 600px;
+    padding: 10px;
+}
+ #featured{
+    max-width: 500px;
+    max-height: 600px;
+    object-fit: cover;
+    cursor: pointer;
+    border: 1px solid #f4f4f4;
+ }
+
+ .thumbnail{
+    object-fit: cover;
+    max-width: 180px;
+    max-height: 100px;
+    padding: 5px;
+    cursor: pointer;
+    opacity: 0.5;
+    margin: 5px;
+    border: 1px solid #fff;
+ }
+
+ .thumbnail:hover{
+    opacity: 1;
+    border: 1px solid red;
+ }
+ .active{
+    opacity: 1;
+ }
+
+ #slide-wrapper{
+    max-width: 500px;
+    display: flex;
+    min-height: 100px;
+    align-items: center;
+   background-color: #fff;
+ }
+
+ #slider{
+  
+    width: 480px;
+    padding: 0 5px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: hidden;
+ }
+ .arrow{
+    color: #f4f4f4;
+    background-color: #000;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: .3s;
+    margin: 2px;
+ }
+
+ .arrow:hover{
+    opacity: .5;
+    width: 30px;
+    height: 30px;
+ }
+
+
+
+ /* -- quantity box -- */
+
+.quantity {
+    display: inline-block; }
+   
+   .quantity .input-text.qty {
+    width: 38px;
+    height: 30px;
+    padding: 0 5px;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid #efefef;
+   }
+   
+   .quantity.buttons_added {
+    text-align: left;
+    position: relative;
+    white-space: nowrap;
+    vertical-align: top; }
+   
+   .quantity.buttons_added input {
+    display: inline-block;
+    margin: 0;
+    vertical-align: top;
+    box-shadow: none;
+   }
+   
+   .quantity.buttons_added .minus,
+   .quantity.buttons_added .plus {
+   
+    height: 30px;
+    color: #f4f4f4;
+    background-color: green;
+    border: 1px solid #efefef;
+    cursor:pointer;}
+   
+   .quantity.buttons_added .minus {
+    border-right: 0; }
+   
+   .quantity.buttons_added .plus {
+    border-left: 0; }
+   
+   .quantity.buttons_added .minus:hover,
+   .quantity.buttons_added .plus:hover {
+    background: #eeeeee; }
+   
+   .quantity input::-webkit-outer-spin-button,
+   .quantity input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin: 0; }
+    
+    .quantity.buttons_added .minus:focus,
+   .quantity.buttons_added .plus:focus {
+    outline: none; }
+   
+/* quanity box end*/   
